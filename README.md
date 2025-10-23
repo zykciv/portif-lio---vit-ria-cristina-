@@ -1,2 +1,110 @@
-# portif-lio---vit-ria-cristina-
-meu primeiro portifólio.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitória Cristina da Silva | Desenvolvedora</title>
+  <style>
+    /* ====== ESTILOS GERAIS ====== */
+    :root {
+      --cor-fundo: #0d0b16;
+      --cor-principal: #7b4bff;
+      --cor-texto: #f5f5f5;
+      --cor-secundaria: #b8aaff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--cor-principal);
+    }
+
+    h2 {
+      font-weight: 400;
+      color: var(--cor-secundaria);
+      margin-bottom: 30px;
+    }
+
+    .botoes {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    a.botao {
+      background-color: var(--cor-principal);
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a.botao:hover {
+      background-color: var(--cor-secundaria);
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    /* ====== RESPONSIVIDADE ====== */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+      a.botao {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vitória Cristina da Silva</h1>
+    <h2>Desenvolvedora iniciante apaixonada por tecnologia 💜</h2>
+  </header>
+
+  <div class="botoes">
+    <a href="#" class="botao">GitHub</a>
+    <a href="#" class="botao">LinkedIn</a>
+    <a href="#" class="botao">Contato</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Vitória Cristina da Silva</p>
+  </footer>
+</body>
+</html>
