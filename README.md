@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -98,9 +97,9 @@
   </header>
 
   <div class="botoes">
-    <a href="#" class="botao">GitHub</a>
-    <a href="#" class="botao">LinkedIn</a>
-    <a href="#" class="botao">Contato</a>
+    <a href="https://github.com/zykciv/portif-lio---vit-ria-cristina-" class="botao" target="_blank">GitHub</a>
+    <a href="https://instagram.com/zykciv_" class="botao" target="_blank">Instagram</a>
+    <a href="https://wa.me/5519971154122" class="botao" target="_blank">WhatsApp</a>
   </div>
 
   <footer>
